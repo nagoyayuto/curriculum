@@ -1,0 +1,28 @@
+/* PC */
+/* PC */
+@media screen and (min-width: 767px) {
+}
+
+/* タブレット */
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .wrapper {
+        width: 250px;
+    }
+    .right {
+        width: 100px;
+    }
+}
+
+/* スマホ */
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 150px;
+    }
+    .left {
+        float: none;
+    }
+    .right {
+        float: none;
+        width: 150px;
+    }
+}
